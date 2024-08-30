@@ -52,31 +52,33 @@ The Following should be included in a well-written README:-
 The README file is essential as it is effective to communicating the purpose, usage and contributing guidelines of a project.  It plays a crucial role in collaboration by providing a single, authoritative source of information that guides users and contributors alike, ensuring that everyone involved can work together efficiently and effectively.
 
 ## Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects?
-ANSWER: Public repository and private repository on GitHub have different functionality and serves their different purposes in accessibility, collaboration and control. The following are the contrasting and comparison of the key differences between them:
-	Public Repositories on GitHub	Private Repositories on GitHub
-1.	Accessibility: Public repositories are fully visible to anyone on the internet.  They can be viewed, cloned, and forked by anyone, even without a GitHub account. Also, the public repositories are indexed by search engines and can be found through GitHub’s search functionality, increasing their visibility and accessibility.	private repositories are only accessible to the repository owner and collaborators who are granted access. They are hidden from the public and do not appear in search result.
-2.	Collaboration: Open collaboration.  Anyone can contribute by forking the repository, making changes, and submitting pull request.	Restricts collaboration.  Only invited collaborators can contribute to the repository.  This allows for more controlled and focused collaboration, this is typically within a smaller team.
-3.	Note secure as sensitive information cannot be safely stored.	Secure and private.  Sensitive information can be safely stored.
-4. 	The owner does not have full control over who can view, clone and contribute to the repository.	This is only accessible to the repository owner and collaborators who are explicitly granted access.
-5.	Potential for misuse.	Restricted. 
+ANSWER: Public repository and private repository on GitHub have different functionality and serves their different purposes in accessibility, collaboration and control. The following are the contrasting and comparison of the key differences between them: 
+Public Repositories on GitHub
+1.	Accessibility: Public repositories are fully visible to anyone on the internet.  They can be viewed, cloned, and forked by anyone, even without a GitHub account. Also, the public repositories are indexed by search engines and can be found through GitHub’s search functionality, increasing their visibility and accessibility. 
+2.	Collaboration: Open collaboration.  Anyone can contribute by forking the repository, making changes, and submitting pull request. 
+3.	Note secure as sensitive information cannot be safely stored. 
+4.	The owner does not have full control over who can view, clone and contribute to the repository.
+5.	Potential for misuse.
 
+Private Repositories on GitHub: 
+1.	Private repositories are only accessible to the repository owner and collaborators who are granted access. They are hidden from the public and do not appear in search result.
+2.	Restricts collaboration.  Only invited collaborators can contribute to the repository.  This allows for more controlled and focused collaboration, this is typically within a smaller team.
+3.	Secure and private.  Sensitive information can be safely stored. 
+4.	This is only accessible to the repository owner and collaborators who are explicitly granted access.
+5.	User is restricted as such does not have potential for misuse.
 The advantages and disadvantages of public and private repositories in the area of collaboration project: 
-Area	Public Repository	Private Repository
-Collaboration	Open to all, encouraging broad contributions	Limited to invited collaborators, more controlled
-Transparency	Full transparency, builds community trust	Development hidden from public, more privacy
-Security	Exposes code to the public, potential misuse	Keeps code private and secure
-Visibility	High visibility, easier to attract contributors	Low visibility, less exposure
-Management	Requires active management of contributions	Easier management with fewer contributors
-Cost	Free, unless using paid features	Free with limitations; paid plans offer more features
-
--	Public Repositories are ideal for projects that benefit from open collaboration, community engagement, and transparency. They are well-suited for open-source projects, educational resources, and projects aiming for broad adoption and contribution.
--	Private Repositories are best for projects requiring confidentiality, controlled collaboration, and security, such as proprietary software, internal tools, or early-stage development. They allow for focused development without the pressures of public visibility.
--	The decision between a public or private repository depends on the specific needs of the project, the desired level of collaboration, and the importance of security and privacy.
+1.	Collaboration: Public repository is open to all, encouraging broad contributions while private repository is limited to invited collaborators, more controlled.
+2.	Transparency: Public Repository has full transparency, builds community trust while private repository is development hidden from public, more privacy.
+3.	Security: Public repository exposes code to the public, while Private repository keeps code private and secure.
+4.	Visibility Public repository has high visibility, easier to attract contributors, while private repository has low visibility, less exposure.
+5.	Public Repositories are ideal for projects that benefit from open collaboration, community engagement, and transparency. They are well-suited for open-source projects, educational resources, and projects aiming for broad adop2.tion and contribution.
+6.	Private Repositories are best for projects requiring confidentiality, controlled collaboration, and security, such as proprietary software, internal tools, or early-stage development. They allow for focused development without the pressures of public visibility.
+The decision between a public or private repository depends on the specific needs of the project, the desired level of collaboration, and the importance of security and privacy.
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 ANSWER:  The following steps are involved in making your first commit to a GitHub repository:
 1.	Step One: Set up Git on Your Local Machine:
-o	Install Git by downloading from the website and follow the installation instructions.  Note to follow the instruction for Windows, Mac Os or Linux depending on the device you are downloading on.
+o	Install Git by downloading from the website and follow the installation instructions.  Note to follow the instruction for Windows, MacOs or Linux depending on the device you are downloading on.
 o	After download is complete, set your username and email which will be associated with your commits.
 2.	Create or Clone a Repository
 o	Here you can decide to Create a new repository on GitHub or Clone an existing repository.
@@ -267,10 +269,7 @@ The next stage is that the issue is assigned to a specific developer who will wo
 
 ## Reflect on common challenges and best practices associated with using GitHub for version control. What are some common pitfalls new users might encounter, and what strategies can be employed to overcome them and ensure smooth collaboration?
 ANSWER: Using GitHub for version control brings many advantages, but it also presents challenges that need to be addressed through best practices. By adopting clear commit practices, managing branches effectively, maintaining documentation, and using pull requests wisely, teams can enhance collaboration, improve project organization, and ensure a smoother development workflow. These practices help in mitigating common issues, leading to more efficient and effective use of GitHub in version control.
-
 The following are some of the common pitfalls new users might encounter and strategies that can be employed to overcome them and ensure smooth collaboration:
-1.	Misunderstanding Git basics:  New users may struggle with basic Git commands such as ‘commit’, ‘merge’ etc. this may lead to confusion and mistakes.  The solution to this is to     
-    learn Git Basic by taking time to study the Git commands. Resources like Git tutorials, documentation and interactive learning platforms can be used.
-2.	Improper Use of Branches: new users might work directly on the main branch or create too many branches without a clear strategy.  The strategy to overcome this, for the beginner to 
-    follow a branching strategy by adapting a clear branching strategy like Git Flow or GitHub Flow, to manage branches systematically.  The solution is to create feature branches.  
-    Use separate branches for feature bug fixes or experiments to keep the main branch stable.
+1.	Misunderstanding Git basics:  New users may struggle with basic Git commands such as ‘commit’, ‘merge’ etc. this may lead to confusion and mistakes.  The solution to this is to learn Git Basic by taking time to study the Git commands. Resources like Git tutorials, documentation and interactive learning platforms can be used.
+2.	Improper Use of Branches: new users might work directly on the main branch or create too many branches without a clear strategy.  The strategy to overcome this, for the beginner to follow a branching strategy by adapting a clear branching strategy like Git Flow or GitHub Flow, to manage branches systematically.  The solution is to create feature branches.  Use separate branches for feature bug fixes or experiments to keep the main branch stable.
+3.	
